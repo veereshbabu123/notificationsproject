@@ -1,0 +1,68 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.icon {
+  height: 22px;
+  width: 24px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.message {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 20px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 540px;
+}
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.primary-bg-color {
+  display: flex;
+  align-items: center;
+  background-color: #0b69ff;
+  height: 45px;
+  width: 500px;
+  margin-bottom: 15px;
+}
+.success-bg-color {
+  display: flex;
+  align-items: center;
+  background-color: #2dca73;
+  height: 45px;
+  width: 500px;
+  margin-bottom: 15px;
+}
+.warning-bg-color {
+  display: flex;
+  align-items: center;
+  background-color: #ffb800;
+  height: 45px;
+  width: 500px;
+  margin-bottom: 15px;
+}
+.danger-bg-color {
+  display: flex;
+  align-items: center;
+  background-color: #ff0b37;
+  height: 45px;
+  width: 500px;
+  margin-bottom: 15px;
+}
